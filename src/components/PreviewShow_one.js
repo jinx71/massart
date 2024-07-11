@@ -71,7 +71,7 @@ const PreviewShow_one = () => {
             <div className="md:block hidden font-[Helvetica] md:text-[50px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
               Preview Show <span className="text-red-600">2024</span>
             </div>
-            <div className="md:text-[18px] md:leading-[30px] text-[20px] md:block hidden">
+            <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block hidden">
               <p className="md:mb-9 mb-5">
                 The preview show, conceived by massArt, received overwhelming response in its inaugural year in 2022, being hailed at home and abroad as a breakthrough idea by creating a space to accommodate tourists who want to soak in the creative aspect of Durga Puja without jostling with the crowd.
               </p>
@@ -99,29 +99,29 @@ const PreviewShow_one = () => {
           <div className="md:w-1/2 w-full grid grid-flow-col md:gap-9 gap-3 md:mb-[50px] mb-[30px]  ms-[63px]  me-[0]">
             <button onClick={() => handleTabChange(0)}   className={
            isSelectTab === 0
-          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
-          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
+          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
+          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
       }>
               Plan your visit
             </button>
             <button onClick={() => handleTabChange(1)} className={
            isSelectTab === 1
-          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
-          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
+          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
+          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
       }>
               Programme
             </button>
             <button onClick={() => handleTabChange(2)} className={
            isSelectTab === 2
-          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
-          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
+          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
+          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
       }>
               Events
             </button>
             <button onClick={() => handleTabChange(3)} className={
            isSelectTab === 3
-          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
-          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
+          ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
+          : "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] border border-buttonCustomColor text-black"
       }>
               Beyond Art
             </button>
@@ -146,7 +146,7 @@ const PreviewShow_one = () => {
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
-            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
+            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
               Get Ticket
             </button>
 
@@ -172,7 +172,7 @@ const PreviewShow_one = () => {
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
-            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
+            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
               Get Ticket
             </button>
 
@@ -198,7 +198,7 @@ const PreviewShow_one = () => {
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
-            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
+            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
               Get Ticket
             </button>
 
@@ -223,7 +223,7 @@ const PreviewShow_one = () => {
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
-            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[20px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
+            <button onClick={toggleModal} className="md:w-[173px] md:h-[48px] w-[92px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white">
               Get Ticket
             </button>
 
@@ -529,7 +529,7 @@ const PreviewShow_one = () => {
                 <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>more ticket options including student concession are available. please call +91 8420460550</p>
                 <div className='leading-[0px]'>   <button
                   type="button"
-                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[20px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
+                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[12px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
                   onClick={toggleModal}
                 >
                   ok

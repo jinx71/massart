@@ -63,7 +63,7 @@ const Carousel = () => {
                 </div>
               </div>
               <p
-                className="text-black group-hover:text-white font-normal text-[20px] leading-[14px] transition duration-300"
+                className="text-black group-hover:text-white font-normal text-[12px] leading-[14px] transition duration-300"
                 
               >
                 {item.text}

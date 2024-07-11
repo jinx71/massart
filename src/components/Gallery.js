@@ -14,7 +14,7 @@ const Gallery = () => {
     <div className="xs:pt-[60px] xs:px-[32px]">
       <div>
         <div className=" grid-col-1 text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
-        The gallery of <span className="text-red-600">Durga Puja Art</span>
+        The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
         <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center">
          <button
@@ -39,7 +39,7 @@ const Gallery = () => {
     </button>
         </div>
         {/* gallery image */}
-        <div className="grid grid-col-2">
+        {/* <div className="grid grid-col-2">
           <div>
             <div className="relative group">
               <div className="h-[239px] w-full ">
@@ -129,7 +129,50 @@ const Gallery = () => {
               </div>
             </div>
           </div>
+        </div> */}
+        <div className="container mx-auto my-[51px] md:block hidden">
+        <div className="grid gap-6 md:grid-cols-2 grid-cols-1 w-full">
+          <div className="grid grid-flow-row gap-6">
+            <Image
+              width={605}
+              height={341}
+              className="w-full min-h-full rounded-[10px]"
+              src="/photos/big screen/Individual Page/picture 02.png"
+              alt="Image 1"
+            />
+            <div className="flex">
+              <div className="flex-1 pr-3">
+                <Image
+                  width={288}
+                  height={341}
+                  className="w-full min-h-full object-cover rounded-[10px]"
+                  src="/photos/big screen/Individual Page/picture 04.png"
+                  alt="Image 1"
+                />
+              </div>
+              <div className="flex-1 pl-3">
+                <Image
+                  width={288}
+                  height={341}
+                  className="w-full min-h-full object-cover rounded-[10px]"
+                  src="/photos/big screen/Individual Page/picture 05.png"
+                  alt="Image 1"
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <Image
+              width={565}
+              height={712}
+              className="w-full h-auto rounded-[10px]"
+              src="/photos/big screen/Individual Page/picture 03.png"
+              alt="Image 1"
+            />
+          </div>
         </div>
+
+      </div>
         {/* button */}
         <Link href='/gallery'>
          <button

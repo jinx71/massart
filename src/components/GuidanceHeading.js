@@ -9,7 +9,7 @@ const GuidanceHeading = () => {
       </h1>
       <p
         className=" xs:pt-[15px]
-       xs:text-[20px] xs:leading-[18px] font-normal font-helvetica"
+       xs:text-[12px] xs:leading-[18px] font-normal font-helvetica"
       >
         Find out more about our team, vision, and dedication to creating
         extraordinary experiences. In this section, we share our story and our

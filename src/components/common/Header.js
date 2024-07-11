@@ -146,7 +146,7 @@ const Header = () => {
            <li className="text-white font-helvetica">
           <div className="dropdown">
             <Link href="/preview-show-2024">Preview Show</Link>
-            <ul className="dropdown-content">
+            <ul className="dropdown-content pt-32">
               <li>
                 <Link href="/2023">2023</Link>
               </li>
@@ -197,7 +197,7 @@ const Header = () => {
             <div className="flex gap-x-[14px] justify-center ">
               
                    {/* <div>
- <button onClick={toggleModal} className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[20px] xs:leading-[24px] bg-buttonCustomColor xs:rounded-full hover:bg-transparent transition-colors duration-300 ease-in-out border-transparent border hover:border-buttonCustomColor">
+ <button onClick={toggleModal} className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[12px] xs:leading-[24px] bg-buttonCustomColor xs:rounded-full hover:bg-transparent transition-colors duration-300 ease-in-out border-transparent border hover:border-buttonCustomColor">
                 Get Ticket
               </button>
 
@@ -207,14 +207,14 @@ const Header = () => {
 
 
                    {/* <Link href="/gallery">
-              <button className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[20px] xs:leading-[24px] border border-buttonCustomColor xs:rounded-full hover:bg-buttonCustomColor hover:border-transparent transition-colors duration-300 ease-in-out">
+              <button className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[12px] xs:leading-[24px] border border-buttonCustomColor xs:rounded-full hover:bg-buttonCustomColor hover:border-transparent transition-colors duration-300 ease-in-out">
                 View More
               </button>
               </Link> */}
          
             </div>
           </div>
-          <div className="flex space-x-[10px] text-white pt-[39px] text-[18px] justify-center ">
+          <div className="flex space-x-[10px] text-white pt-[39px] text-[24px] justify-center ">
             <CiFacebook />
             <FaLinkedinIn />
             <FaPinterest />
@@ -251,7 +251,7 @@ const Header = () => {
                 <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>more ticket options including student concession are available. please call +91 8420460550</p>
                 <div className='leading-[0px]'>   <button
                   type="button"
-                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[20px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
+                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[12px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
                   onClick={toggleModal}
                 >
                   ok
