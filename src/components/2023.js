@@ -292,7 +292,7 @@ const TwoZeroTwoThree = () => {
                     "linear-gradient(360deg, black, rgba(249, 0, 0, 0), rgba(249, 0, 0, 0), rgba(249, 0, 0, 0))",
                 }}
               >
-                <p className="text-[20px] leading-[23px] font-bold mb-2">
+                <p className="text-[12px] leading-[23px] font-bold mb-2">
                   {slide.title}
                 </p>
               </div>

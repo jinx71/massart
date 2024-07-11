@@ -20,7 +20,7 @@ const Concept = () => {
       />
       <div className="absolute inset-0 bg-black-to-t to-black from-transparent rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="xs:text-[20px] leading-[23px] font-helvetica font-bold text-white">
+        <p className="xs:text-[12px] leading-[23px] font-helvetica font-bold text-white">
           Concept of Durga Puja Art
         </p>
         <div className="pt-[10px]">
@@ -90,7 +90,7 @@ const Concept = () => {
       />
       <div className="absolute inset-0 bg-black-to-t to-black from-transparent rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="xs:text-[20px] leading-[23px] font-helvetica font-bold text-white">
+        <p className="xs:text-[12px] leading-[23px] font-helvetica font-bold text-white">
           preview show 2024
         </p>
         <div className="pt-[10px]">
@@ -122,7 +122,7 @@ const Concept = () => {
       />
       <div className="absolute inset-0 bg-black-to-t to-black from-transparent rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="xs:text-[20px] leading-[23px] font-helvetica font-bold text-white">
+        <p className="xs:text-[12px] leading-[23px] font-helvetica font-bold text-white">
           preview pass
         </p>
       </div>
@@ -189,7 +189,7 @@ const Concept = () => {
       />
       <div className="absolute inset-0 bg-black-to-t to-black from-transparent rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       <div className="absolute left-[25px] bottom-[25px] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <p className="xs:text-[20px] leading-[23px] font-helvetica font-bold text-white">
+        <p className="xs:text-[12px] leading-[23px] font-helvetica font-bold text-white">
           nomination process
         </p>
         <div className="pt-[10px]">

@@ -308,7 +308,7 @@ const Contact = () => {
         <div className="flex items-center md:mb-0 mb-6">
           <div className="me-4">
             <div className="bg-buttonCustomColor lg:w-[81px] lg:h-[81px] w-[42px] h-[42px]  flex justify-center items-center text-white rounded-full">
-              <FiPhoneCall className="text-[20px] lg:text-[39px]" />
+              <FiPhoneCall className="text-[12px] lg:text-[39px]" />
             </div>
           </div>
 
@@ -325,7 +325,7 @@ const Contact = () => {
         <div className="flex items-center md:mb-0 mb-6">
           <div className="me-4">
             <div className="bg-buttonCustomColor lg:w-[81px] lg:h-[81px] w-[42px] h-[42px] flex justify-center items-center text-white rounded-full">
-              <IoIosMail className="text-[20px] lg:text-[39px]" />
+              <IoIosMail className="text-[12px] lg:text-[39px]" />
             </div>
           </div>
 
@@ -342,7 +342,7 @@ const Contact = () => {
         <div className="flex items-center md:mb-0 mb-6">
           <div className="me-4">
             <div className="bg-buttonCustomColor lg:w-[81px] lg:h-[81px] w-[42px] h-[42px] flex justify-center items-center text-white rounded-full">
-              <FaLocationDot className="text-[20px] lg:text-[39px]" />
+              <FaLocationDot className="text-[12px] lg:text-[39px]" />
             </div>
           </div>
 

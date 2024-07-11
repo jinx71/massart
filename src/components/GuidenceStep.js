@@ -116,7 +116,7 @@ const GuidenceStep = () => {
                         {item.number}
                       </p>
                     </div>
-                    <h6 className="z-20 text-[20px] leading-[26px] font-helvetica font-bold">
+                    <h6 className="z-20 text-[12px] leading-[26px] font-helvetica font-bold">
                       {item.question}
                     </h6>
                   </div>

@@ -56,13 +56,13 @@ const MasterClass = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -71,7 +71,7 @@ const MasterClass = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           dots: true,
         },
@@ -88,13 +88,13 @@ const MasterClass = () => {
   };
 
   return (
-    <div className="custom-widhth-silck overflow-hidden">
+    <div className="overflow-hidden">
       <Slider {...settings} className="">
         {events.map((event, index) => (
           <div key={index} className="">
-            <div className=" relative group h-[500px]">
+            <div className="relative group h-[500px] mx-10">
               <Image
-                className="w-[100vw] h-full object-cover"
+                className="w-[100vw] rounded-lg h-full object-cover"
                 src={event.image}
                 alt={event.title}
                 height={100}
@@ -104,15 +104,15 @@ const MasterClass = () => {
                 className="absolute top-0 left-[32px] bg-buttonCustomColor
                  group-hover:opacity-100 opacity-0"
               >
-                <p className="xs:text-[20px] xs:leading-[23px] font-bold font-helvetica text-white xs:px-[14px] xs:pt-[19px]">
+                <p className="xs:text-[12px] xs:leading-[23px] font-bold font-helvetica text-white xs:px-[14px] xs:pt-[19px]">
                   {event.date}
                 </p>
-                <p className="xs:text-[20px] xs:leading-[23px] font-bold font-helvetica text-white xs:px-[14px] xs:pb-[19px]">
+                <p className="xs:text-[12px] xs:leading-[23px] font-bold font-helvetica text-white xs:px-[14px] xs:pb-[19px]">
                   {event.month}
                 </p>
               </div>
               <div className="absolute bottom-[65px] left-[32px]  bg-opacity-75 text-white june group-hover:opacity-100 opacity-0">
-                <p className="xs:text-[20px] xs:leading-[32px] font-bold font-helvetica xs:pb-[2px]">
+                <p className="xs:text-[12px] xs:leading-[32px] font-bold font-helvetica xs:pb-[2px]">
                   {event.title}
                 </p>
                 <p className="xs:text-[12px] pb-[11px] xs:leading-[13px] font-normal font-helvetica ">

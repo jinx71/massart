@@ -59,10 +59,10 @@ const Individual = () => {
                   className="flex justify-between items-center cursor-pointer"
                   onClick={() => toggleAccordion(index)}
                 >
-                  <div className="lg:text-[32px] text-[20px] font-bold">
+                  <div className="lg:text-[32px] text-[12px] font-bold">
                     {section.title}
                   </div>
-                  <div className="lg:text-[32px] text-[20px]">
+                  <div className="lg:text-[32px] text-[12px]">
                     {openSections.includes(index) ? (
                       <GoDash />
                     ) : (

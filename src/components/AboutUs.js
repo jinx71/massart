@@ -77,7 +77,7 @@ const AboutUs = () => {
             <div className="font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[42px] text-[24px] font-bold md:mb-[27px] md-mt-0 mt-[11px] mb-[11px]">
               <span className="text-red-600">Who</span> we are
             </div>
-            <div className="text-[12px] leading-[24px] md:text-[15px] xl:text-[18px] 2xl:text-[20px]">
+            <div className="text-[12px] leading-[24px] md:text-[15px] xl:text-[18px] 2xl:text-[12px]">
               <p className="md:mb-6 mb-5 md:block hidden ">
                 a non-profit organization conceived in june 2022 with the objective of promoting Art and culture of bengal. run by a team of motivated, experienced, traditionally rooted and technologically enabled professionals. registered under the west bengal societies registration act 1961.
               </p>

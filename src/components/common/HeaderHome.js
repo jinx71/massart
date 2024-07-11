@@ -193,7 +193,7 @@ const HeaderHome = () => {
             <div className="flex gap-x-[14px] justify-center ">
               
                    {/* <div>
- <button onClick={toggleModal} className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[12px] xs:leading-[24px] bg-buttonCustomColor xs:rounded-full hover:bg-transparent transition-colors duration-300 ease-in-out border-transparent border hover:border-buttonCustomColor">
+ <button onClick={toggleModal} className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[20px] xs:leading-[24px] bg-buttonCustomColor xs:rounded-full hover:bg-transparent transition-colors duration-300 ease-in-out border-transparent border hover:border-buttonCustomColor">
                 Get Ticket
               </button>
 
@@ -203,7 +203,7 @@ const HeaderHome = () => {
 
 
                    {/* <Link href="/gallery">
-              <button className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[12px] xs:leading-[24px] border border-buttonCustomColor xs:rounded-full hover:bg-buttonCustomColor hover:border-transparent transition-colors duration-300 ease-in-out">
+              <button className="text-white xs:px-[17px] xs:py-[4px] font-helvetica font-bold xs:text-[20px] xs:leading-[24px] border border-buttonCustomColor xs:rounded-full hover:bg-buttonCustomColor hover:border-transparent transition-colors duration-300 ease-in-out">
                 View More
               </button>
               </Link> */}
@@ -247,7 +247,7 @@ const HeaderHome = () => {
                 <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>more ticket options including student concession are available. please call +91 8420460550</p>
                 <div className='leading-[0px]'>   <button
                   type="button"
-                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[12px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
+                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[20px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
                   onClick={toggleModal}
                 >
                   ok
