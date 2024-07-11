@@ -1,0 +1,449 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  font-family: "Helvetica";
+}
+
+body {
+  background: #fff;
+  color: black;
+}
+
+.nav-item {
+  font-family: 'Helvetica', sans-serif;
+  color: #ed2127;
+  font-weight: bold;
+  position: relative;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ed2127;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover::before {
+  visibility: visible;
+  width: 100%;
+}
+
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+
+  font-weight: 400; /* Normal weight */
+  src:
+    local("Helvetica"),
+    url("/fonts/Helvetica.woff") format("woff");
+
+  font-weight: 400;
+  /* Normal weight */
+  src: local("Helvetica"), url("/fonts/Helvetica.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: oblique;
+
+  font-weight: 400; /* Normal weight */
+  src:
+    local("Helvetica Oblique"),
+    url("/fonts/Helvetica-Oblique.woff") format("woff");
+
+  font-weight: 400;
+  /* Normal weight */
+  src: local("Helvetica Oblique"), url("/fonts/Helvetica-Oblique.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica Compressed";
+  font-style: normal;
+
+  font-weight: 400; /* Normal weight */
+  src:
+    local("Helvetica Compressed"),
+    url("/fonts/helvetica-compressed-5871d14b6903a.woff") format("woff");
+
+  font-weight: 400;
+  /* Normal weight */
+  src: local("Helvetica Compressed"), url("/fonts/helvetica-compressed-5871d14b6903a.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica Rounded Bold";
+  font-style: normal;
+
+  font-weight: 700; /* Bold weight */
+  src:
+    local("Helvetica Rounded Bold"),
+    url("/fonts/helvetica-rounded-bold-5871d05ead8de.woff") format("woff");
+
+  font-weight: 700;
+  /* Bold weight */
+  src: local("Helvetica Rounded Bold"), url("/fonts/helvetica-rounded-bold-5871d05ead8de.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+
+  font-weight: 900 !important; /* Bold weight */
+  src:
+    local("Helvetica"),
+    url("/fonts/Helvetica-Bold.woff") format("woff");
+
+  font-weight: 900 !important;
+  /* Bold weight */
+  src: local("Helvetica"), url("/fonts/Helvetica-Bold.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: oblique;
+
+  font-weight: 700; /* Bold weight */
+  src:
+    local("Helvetica Bold Oblique"),
+    url("/fonts/Helvetica-BoldOblique.woff") format("woff");
+
+  font-weight: 700;
+  /* Bold weight */
+  src: local("Helvetica Bold Oblique"), url("/fonts/Helvetica-BoldOblique.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+
+  font-weight: 300; /* Light weight */
+  src:
+    local("Helvetica Light"),
+    url("/fonts/helvetica-light-587ebe5a59211.woff") format("woff");
+
+  font-weight: 300;
+  /* Light weight */
+  src: local("Helvetica Light"), url("/fonts/helvetica-light-587ebe5a59211.woff") format("woff");
+
+}
+
+body {
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-size: 42px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.black-placeholder::-webkit-input-placeholder {
+  color: black;
+}
+
+.black-placeholder::-moz-placeholder {
+  color: black;
+}
+
+.black-placeholder:-ms-input-placeholder {
+  color: black;
+}
+
+.black-placeholder::-ms-input-placeholder {
+  color: black;
+}
+
+.black-placeholder::placeholder {
+  color: black;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.accordion-content.open {
+  max-height: none;
+}
+
+.scroll-container {
+  position: relative;
+  overflow-x: auto;
+}
+
+.blur-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* Ensure the blur effect doesn't interfere with scrolling */
+}
+
+.blur-effect:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(293deg, white, transparent, transparent);
+  top: 0;
+  left: 0;
+}
+
+/* components/Carousel.module.css */
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carouselItem {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carouselItem img {
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.arrow:nth-of-type(1) {
+  left: 10px;
+}
+
+.arrow:nth-of-type(2) {
+  right: 10px;
+}
+
+.prev-arrow svg,
+.next-arrow svg {
+  height: 30px;
+  color: black !important;
+}
+
+.custom-slick-style svg {
+  width: 44px;
+  height: 44px;
+}
+
+.prev-arrow {
+  margin-left: 33px;
+  margin-right: 10px;
+}
+
+.next-arrow {
+  margin-right: 33px;
+  margin-left: 10px;
+}
+
+.prev-arrow,
+.next-arrow {
+
+  background-color: #d9d9d9;
+  color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev-arrow svg,
+.next-arrow svg {
+  height: 30px;
+  color: #fff;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.prev-arrow {
+  left: 55px;
+}
+
+.next-arrow {
+  right: 55px;
+}
+
+/* .slick-list {
+  width: 50%;
+  height: 100%;
+} */
+/* .slick-slider.slick-initialized {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+} */
+
+/* .custom-slick-style .slick-list {
+  background-color: #fef2f2; 
+  border-radius: 10px;
+} */
+
+
+/* .slick-list {
+  width: 50%;
+  height: 100%;
+} */
+
+.custom-slick-style .slick-slider.slick-initialized {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-slick-style .slick-list {
+  background-color: #fef2f2;
+  /* Tailwind bg-red-50 */
+  border-radius: 10px;
+  width: 264px;
+}
+
+.custom-slick-style .slick-list:hover {
+  background-color: #ef4444;
+  /* Tailwind hover:bg-red-500 */
+}
+
+.custom-slick-style .slick-list:hover .icon-hover {
+  background-color: white;
+  /* Tailwind hover:bg-red-500 */
+}
+
+.custom-slick-style .slick-list:hover .icon-hover svg {
+  color: #ef4444 !important;
+  /* Tailwind hover:bg-red-500 */
+}
+
+@media (max-width: 767px) {
+  .custom-acc-style {
+
+    margin-top: 20px !important;
+    margin-bottom: 24px !important;
+
+    margin-top: 0px !important;
+    margin-bottom: 16px !important;
+  }
+  .hidden-mobile{
+    display: none;
+  }
+ 
+}
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+
+  }
+}
+
+@media (min-width: 769px) {
+  .hidden-desktop {
+    display: none;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .custom-width-for-small {
+    width: 150px;
+  }
+
+}
+
+  .xtra-small-device-padding{
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+div#default-modal\ custom-bg-fullScreen {
+  background: rgb(0 0 0 / 60%);
+}
+

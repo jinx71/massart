@@ -1,0 +1,32 @@
+MasterClass.css .slick-dots {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.slick-dots li {
+  margin: 50px 5px;
+}
+
+.slick-dots li button:before {
+  font-size: 50px;
+  line-height: 12px;
+  width: 10px;
+  height: 10px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #ed2127;
+}
+
+.slick-dots li:nth-child(3) button:before {
+  background-color: #00000033;
+}
+/* .custom-widhth-silck .slick-list {
+  width: 100%;
+} */
