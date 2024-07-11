@@ -39,7 +39,7 @@ const Gallery = () => {
     </button>
         </div>
         {/* gallery image */}
-        {/* <div className="grid grid-col-2">
+        <div className="grid grid-col-2 md:hidden block">
           <div>
             <div className="relative group">
               <div className="h-[239px] w-full ">
@@ -129,7 +129,7 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="container mx-auto my-[51px] md:block hidden">
         <div className="grid gap-6 md:grid-cols-2 grid-cols-1 w-full">
           <div className="grid grid-flow-row gap-6">
