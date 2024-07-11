@@ -6,16 +6,17 @@ import { useState } from "react";
 
 const Gallery = () => {
      const [isSelectTab, setIsSelectTab] = useState(0);
-  const handleTabChange = (indexNum) => {
+  const handleTabChange = (indexNum, e) => {
     setIsSelectTab(indexNum);
+    e.preventDefault();
   }
   return (
     <div className="xs:pt-[60px] xs:px-[32px]">
       <div>
-        <div className="md:hidden block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
-        The gallery of <span className="text-red-600">Durga puja Art</span>
+        <div className=" grid-col-1 text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
+        The gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
-        <div className="flex gap-x-[15px] xs:py-[25px] items-center">
+        <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center">
          <button
       onClick={() => handleTabChange(0)}
       className={
@@ -38,7 +39,7 @@ const Gallery = () => {
     </button>
         </div>
         {/* gallery image */}
-        <div>
+        <div className="grid grid-col-2">
           <div>
             <div className="relative group">
               <div className="h-[239px] w-full ">

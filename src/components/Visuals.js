@@ -19,11 +19,11 @@ const Visual = () => {
     <div
       className="pt-[60px]   xs:px-[32px]
       
-      
+      lg:hidden
       bg-white font-helvetica"
     >
       <div className="">
-        <h1 className="xs:text-[24px] font-bold  font-helvetica xs:leading-[35px]">
+        <h1 className="xs:text-[24px] lg:text-[42px] font-bold  font-helvetica xs:leading-[35px] ">
           Witness the World's Biggest Public
           <span className="text-buttonCustomColor"> Art Festival</span>
         </h1>
