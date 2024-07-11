@@ -54,7 +54,7 @@ const AboutUs = () => {
     <div>
 
       <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px] lg:mt-[150px] md:mt[122px] mt-[60px]">
-        <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
+        <div className="grid lg:grid-cols-3 grid-cols-1 md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
           <div className="lg:block hidden">
             <Image
               src="/photos/big screen/about us/picture 01.png"
