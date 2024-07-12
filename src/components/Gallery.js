@@ -13,7 +13,7 @@ const Gallery = () => {
   return (
     <div className="xs:pt-[60px] xs:px-[32px]">
       <div>
-        <div className=" grid-col-1 text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
+        <div className=" grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
         The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
         <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center">

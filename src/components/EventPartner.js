@@ -7,9 +7,9 @@ const EventPartener = () => {
     setIsSelectTab(indexNum);
   };
   return (
-    <div className="bg-EventPartner pt-[50px] font-helvetica mt-32">
+    <div className="bg-EventPartner pt-[50px] font-helvetica mt-8">
       <div className=" font-helvetica bg-EventPartner max-w-[1200px] mx-auto">
-        <div className="py-[41px] grid grid-cols-2 items-center gap-10">
+        <div className="py-[41px] xs:px-[32px] grid lg:grid-cols-2 items-center gap-10">
           <div>
             <h1 className="font-bold lg:text-[42px]  font-helvetica text-[24px] leading-[3rem] ">
               <span className="text-buttonCustomColor">

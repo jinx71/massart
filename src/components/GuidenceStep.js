@@ -116,7 +116,7 @@ const GuidenceStep = () => {
                         {item.number}
                       </p>
                     </div>
-                    <h6 className="z-20 text-[24px] leading-[26px] font-helvetica font-bold">
+                    <h6 className="z-20 xs:text-[16px] lg:text-[24px] leading-[26px] font-helvetica font-bold">
                       {item.question}
                     </h6>
                   </div>
@@ -134,7 +134,7 @@ const GuidenceStep = () => {
                 </div>
                 {openAccordion === item.id && (
                   <div>
-                    <p className="text-[16px] leading-[28px] pl-[40px] pr-[26px] font-normal font-helvetica">
+                    <p className="xs:text-[12px] lg:text-[16px] leading-[28px] pl-[40px] pr-[26px] font-normal font-helvetica">
                       {item.answer}
                     </p>
                   </div>
