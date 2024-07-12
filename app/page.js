@@ -10,12 +10,11 @@ import EventPartener from "@/src/components/EventPartner";
 import GuidanceHeading from "@/src/components/GuidanceHeading";
 import GuidenceStep from "@/src/components/GuidenceStep";
 import HomeAboutUs from "@/src/components/HomeAboutUs";
-import Video from "@/src/components/Video";
-import Visual from "@/src/components/Visuals";
 import HomeVideo from "@/src/components/HomeVideo";
+import Visual from "@/src/components/Visuals";
 
 export const metadata = {
-  title: "Home - Massart",
+  title: "Home - ",
   description: "Welcome to the home of Massart.",
 };
 
