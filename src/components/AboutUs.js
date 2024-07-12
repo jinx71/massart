@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
-
+import HomePageImage01 from "../../public/images/HomePageImage-01.jpg";
+import AboutUsPagePhoto01 from "../../public/photos/big screen/about us/picture 02.png"
 const AboutUs = () => {
 
 
@@ -53,8 +55,8 @@ const AboutUs = () => {
   return (
     <div>
 
-      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px] lg:mt-[150px] md:mt[122px] mt-[60px]">
-        <div className="grid lg:grid-cols-3 grid-cols-1 md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
+      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px]">
+        {/* <div className="flex flex-col lg:flex-row md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
           <div className="lg:block hidden">
             <Image
               src="/photos/big screen/about us/picture 01.png"
@@ -86,16 +88,52 @@ const AboutUs = () => {
               </p>
             </div>
           </div>
-        </div>
-
+        </div> */}
+<div className="xs:pt-[60px] bg-white font-helvetica">
+      <div className="flex flex-col lg:flex-row-reverse justify-center lg:gap-16">
+      <div className="lg:w-1/2">
+        <h1 className="xs:text-[24px] lg:text-[42px] xs:leading-[36px] font-helvetica font-bold xs:pb-[15px]">
+          Who
+          <span className="text-buttonCustomColor "> We Are </span>
+        </h1>
+        <p
+          className=" font-normal font-helvetica xs:text-[12px] xs:leading-[18px] xs:pb-[25px] lg:text-[16px] lg:pt-10
+        "
+        >
+          Durga puja is bengal’s biggest festival that takes place over a week
+          or so in september-october, on dates varying every year but announced
+          well in advance. at the centre of the celebration is the figure of
+          goddess durga, crafted traditionally in clay, who is worshipped in the
+          act of vanquishing the demon mahishasura.
+        </p>
+        
+       </div>
+       <div className="">
+        <Image
+          src= {HomePageImage01}
+          alt="Durga Puja"
+          width={527}
+          height={411}
+          
+          className="w-full h-[347px] object-cover rounded-[10px]
+             "
+        />
+      </div>
+      
+      </div>
+      <div>
+      
+      
+      </div>
+    </div>
         <div>
-          <div className="font-[Helvetica] text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[50px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px]">
-            <span className="text-red-600">What</span> we do
+          <div className="font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
+            <span className="text-red-600">What</span> We Do
           </div>
 
 
 
-          <div className="md:grid grid-cols-3 lg:gap-[70px] gap-[35px] hidden">
+          <div className="md:grid grid-cols-3 lg:gap-[70px] gap-[35px] hidden mb-[32px]">
             <div className="flex justify-center items-center">
               <div className="group bg-red-50 lg:p-10 p-5 h-full rounded-lg text-center hover:bg-red-500 transition duration-300">
                 <div className="flex justify-center mb-4">
@@ -200,7 +238,7 @@ const AboutUs = () => {
       </div>
 
       {/* Show on mobile */}
-      <div className="md:hidden grid grid-flow-col auto-cols-max gap-3 mb-[17px]  ms-[30px]  overflow-x-auto no-scrollbar">
+      <div className="md:hidden grid grid-flow-col auto-cols-max gap-3 mx-[32px]  overflow-x-auto no-scrollbar">
 
         <div className="flex justify-center items-center w-[170px] custom-width-for-small">
           <div className="group p-4 h-full rounded-[10px] text-center bg-red-500 transition duration-300">
@@ -300,32 +338,37 @@ const AboutUs = () => {
       </div>
 
       
-      <div className="font-[Helvetica] text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[50px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7" >
-      A <span className="text-red-600">non-profit</span> organization conceived in <span className="text-red-600">June 2022 </span>
+      <div className="font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px]" >
+      A <span className="text-red-600">Non-Profit</span> Organization Conceived In <span className="text-red-600">June 2022 </span>
           </div>
 
-      <div className="flex mt-[34px] md:mt-[152px]">
+      <div className="flex flex-col lg:flex-row mx-[32px]">
 
-        <div className="md:w-[40%] w-[50%]">
+        <div className="xs:w-100 lg:w-1/2 mb-[16px]">
           <Image
-            src="/photos/big screen/about us/picture 02.png"
-            className="md:block hidden"
+            
+            src= {AboutUsPagePhoto01}
+            className="md:block hidden w-full h-[100%] object-cover rounded-[10px]"
             alt="logo"
-            width={527}
-            height={836}
+            width={127}
+          height={100}
+          
+          
           />
 
           <Image
-            src="/photos/phone screen/about us/picture02.png"
-            className="h-auto md:hidden block"
+            src= {HomePageImage01}
+            className="h-auto md:hidden block w-full h-[347px] object-cover rounded-[10px]"
             alt="logo"
-            width={193}
-            height={427}
+            width={527}
+          height={411}
+          
+          
           />
 
         </div>
-        <div className="md:w-[60%] w-[50%] md:p-[62px] p-[19px] md:py-[45px] py-0 pe-[30px] ps-0 xtra-small-device-padding">
-          <div className="md:block hidden font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] font-bold md:mb-[71px] mb:[30px]">
+        <div className="xs:w-100 lg:w-1/2 md:p-[62px] p-[19px] md:py-[0px] py-0 pe-[30px] ps-0 xtra-small-device-padding">
+          <div className="md:block hidden font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:leading-[46px] xs:text-[24px] font-bold md:mb-[71px] mb:[30px]">
             A <span className="text-red-600">non-profit</span> organization conceived in <span className="text-red-600">June 2022 </span>
           </div>
           {sections.map((section, index) => (
@@ -347,7 +390,7 @@ const AboutUs = () => {
                     </svg>
                   )}
                 </div>
-                <div className="md:text-[32px] md:leading-[45px] text-[15px] leading-[21px] font-bold">
+                <div className="xs:text-[18px] lg:text-[24px] md:leading-[45px] text-[15px] leading-[21px] font-bold">
                   {section.title}
                 </div>
               </div>
