@@ -10,12 +10,11 @@ import EventPartener from "@/src/components/EventPartner";
 import GuidanceHeading from "@/src/components/GuidanceHeading";
 import GuidenceStep from "@/src/components/GuidenceStep";
 import HomeAboutUs from "@/src/components/HomeAboutUs";
-import Video from "@/src/components/Video";
-import Visual from "@/src/components/Visuals";
 import HomeVideo from "@/src/components/HomeVideo";
+import Visual from "@/src/components/Visuals";
 
 export const metadata = {
-  title: "Home - Massart",
+  title: "Home - massert",
   description: "Welcome to the home of Massart.",
 };
 
@@ -24,13 +23,15 @@ export default function Home() {
     <div className="bg-[#FFFFFF]">
       <HeaderHome />
       <main>
-        <HomeAboutUs />
-        <Visual />
-        <Gallery />
-        <Concept />
-        <HomeVideo />
-        <Explore />
-        <MasterClass />
+        <div className="max-w-[1200px] mx-auto">
+          <HomeAboutUs />
+          <Visual />
+          <Gallery />
+          <Concept />
+          <HomeVideo />
+          <Explore />
+          <MasterClass />
+        </div>
         <EventPartener />
         <Review />
         <GuidanceHeading />
