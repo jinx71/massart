@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 const Concept = () => {
   const currentPath = usePathname();
   return (
-    <div className="pt-[60px] px-[32px]">
-      <div className="grid md:grid-cols-2  gap-6 items-center">
+    <div className="xs:pt-[32px] lg:pt-[0px]">
+      {currentPath =="/" && (
+        <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
         <div className="relative h-[400px] md:h-[590px] rounded-md overflow-hidden group  bg-[url('/images/conceptOfDurgaPuja.jpg')] bg-no-repeat bg-cover bg-center">
           <div className="absolute inset-0 bg-gradient-to-b from-[#00000000] to-[#000000]  rounded-[10px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -36,7 +37,7 @@ const Concept = () => {
           <div className="h-[285px] w-full relative group">
             <div className="relative group">
               <Image
-                className="w-full  object-cover rounded-[10px]"
+                className="w-full object-cover rounded-[10px]"
                 src="/images/preview show-min.jpg"
                 height={100}
                 width={100}
@@ -138,13 +139,14 @@ const Concept = () => {
           </div>
         </div>
       </div>
+      )}
 
       {/* should not show in home page */}
       {currentPath !== "/" && (
-        <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[150px] mt-[0px]">
+        <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[50px] mx-[0px]">
           <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-[106px] gap-[17px] md:mb-[61px] mb-7">
             <div>
-              {/* <Image
+              <Image
           src="/photos/big screen/concept/picture 01.png"
           className="md:block hidden"
           alt="img"
@@ -157,11 +159,12 @@ const Concept = () => {
           alt="img"
           width={366}
           height={347}
-        /> */}
+        />
+        
             </div>
             <div>
               <div className="font-[Helvetica] md:text-[49px] leading-[56px] text-[24px] font-bold mb-[5px]">
-                <span className="text-red-600">What</span> is durga puja Art
+                <span className="text-red-600">What</span> Is Durga Puja Art
               </div>
               <div className="md:text-[15px] leading-[24px] text-[12px]">
                 <p
@@ -218,25 +221,38 @@ const Concept = () => {
 
       {/* Show on mobile */}
       {currentPath !== "/" && (
-        <div className="md:hidden flex flex-row gap-6 justify-center items-center mb-[15px] px-[0px] ">
+        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly">
+         
           <div className="relative group rounded-lg overflow-hidden justify-center flex duration-150">
             <Image
               className=""
-              width={160}
-              height={249}
+              width={320}
+              height={700}
               src="/photos/phone screen/concept/picture 2.png"
               alt=""
             />
             <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
               <p className="text-[12px] leading-[15px] font-[Helvetica] mb-[10px]">
-                contemporary durga puja Art
+                Contemporary Durga Puja Art
               </p>
+              <div className="pt-[10px]">
+                <p className="text-[8px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
+                  the third edition of preview show of durga puja Art 2024
+                  kolkata, is going to be held on 30 september to 4 october. the
+                  show time being 6 pm to 5 am.
+                </p>
+                <div className="pt-[10px]">
+                  <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                    Registration
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
           <div className="relative group rounded-lg overflow-hidden justify-center flex">
             <Image
               className=""
-              width={160}
+              width={320}
               height={249}
               src="/photos/phone screen/concept/picture 3.png"
               alt=""
@@ -253,7 +269,33 @@ const Concept = () => {
                 </p>
                 <div className="pt-[10px]">
                   <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
-                    registration
+                    Registration
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="relative group rounded-lg overflow-hidden justify-center flex">
+            <Image
+              className=""
+              width={320}
+              height={249}
+              src="/photos/phone screen/concept/picture 3.png"
+              alt=""
+            />
+            <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-2 text-white">
+              <p className="text-[12px] leading-[15px] font-[Helvetica] mb-[10px]">
+                Multi Genre Music Festival 2024
+              </p>
+              <div className="pt-[10px]">
+                <p className="text-[8px] pr-[25%] leading-[14px] text-white font-normal font-helvetica">
+                  The third edition of preview show of durga puja Art 2024
+                  kolkata, is going to be held on 30 september to 4 october. the
+                  show time being 6 pm to 5 am.
+                </p>
+                <div className="pt-[10px]">
+                  <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
+                    Registration
                   </button>
                 </div>
               </div>
