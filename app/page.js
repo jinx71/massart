@@ -20,9 +20,9 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF] ">
       <HeaderHome />
-      <main>
+      <main className="max-w-[1200px] mx-auto">
         <HomeAboutUs />
         <Visual />
         <Gallery />
