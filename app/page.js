@@ -20,16 +20,18 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-[#FFFFFF] ">
+    <div className="bg-[#FFFFFF]">
       <HeaderHome />
-      <main className="max-w-[1200px] mx-auto">
-        <HomeAboutUs />
-        <Visual />
-        <Gallery />
-        <Concept />
-        <HomeVideo />
-        <Explore />
-        <MasterClass />
+      <main>
+        <div className="max-w-[1200px] mx-auto">
+          <HomeAboutUs />
+          <Visual />
+          <Gallery />
+          <Concept />
+          <HomeVideo />
+          <Explore />
+          <MasterClass />
+        </div>
         <EventPartener />
         <Review />
         <GuidanceHeading />
