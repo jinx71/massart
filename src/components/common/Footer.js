@@ -2,93 +2,103 @@ import Image from "next/image";
 
 import Link from "next/link";
 import { LuSend } from "react-icons/lu";
-import SocialContributor from "../SocialContributor/SocialContributer";
+import massArtLogo from "../../../public/images/massart_1.png";
 
 const Footer = () => {
   return (
     <>
-      <SocialContributor />
-      <footer className="bg-footerColor ">
-        <div className=" text-white xs:px-[32px] xs:pt-[35px] xs:pb-[25px]">
-          <div className="h-[57px] w-[49px] ">
+      
+      <footer className="bg-footerColor text-white">
+        <div className="mx-[32px]">
+
+          <div className="lg:grid lg:grid-cols-4 lg:gap-16 xs:flex xs:flex-col" >
+
+          <div className="flex flex-col lg:pt-16 xs:pt-8">
+            <div className="grow-0">
             <Image
-              className="w-full h-full object-cover "
-              src="/images/massart 1.png"
+              className=" object-cover"
+              src="/images/massart_1.png"
               height={100}
               width={100}
               alt=""
             />
-          </div>
-          <div className="grid grid-cols-2 gap-x-[45px]">
-            <div>
-              <nav className="xs:py-[25px]">
-                <p className="xs:text-[12px] xs:leading-[17px] font-normal font-helvetica">
-                  a non-profit organization conceived in june 2022 with the
-                  objective of promoting Art and culture of bengal.
-                </p>
-              </nav>
-
-              <nav>
-                <h6 className=" xs:text-[16px] xs:leading-[24px]  font-helvetica font-bold text-white">
-                  Learn More
-                </h6>
-                <p className="link opacity-60 link-hover xs:pt-[10px] xs:pb-[8px]  xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
-                  Terms Of Use
-                </p>
-                <p className="link link-hover opacity-60 xs:pb-[8px] xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
-                  Privacy policy
-                </p>
-                <Link  href='/faq'>
-                 <p className="link link-hover opacity-60  xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
-                  FAQ
-                </p>
-                </Link>
-               
-              </nav>
-              <nav>
-                <p className="xs:pt-[25px] xs:text-[8px] xs:leading-[12px] font-normal xs:text-left">
-                  Copyright © 2024 massArt, Designed & Developed Ethically by
-                  <a href="https://www.ethicalden.com/" target="_blank">
-                    <span className="underline"> Ethical Den</span>
-                  </a>
-                </p>
-              </nav>
+            </div>
+              <div className="w-full grow">
+              <p className="capitalize text-[12px] p-2 leading-10 text-justify">A non-profit organization conceived in june 2022 with the
+              objective of promoting Art and culture of bengal.</p>
+              </div>
             </div>
 
-            <div>
-              <nav>
-                <h6 className="xs:pb-[10px] pt-[25px] xs:text-[16px]  xs:leading-[24px]  font-helvetica font-bold text-white">
+
+            <div className="flex flex-col lg:pt-16 xs:pt-8">
+            <div className="grow-0">
+            <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
                   Navigation
                 </h6>
+            </div>
+            <nav>
+                
                  <Link  href='/'>
-                  <p className="xs:pb-[8px] opacity-60 link link-hover xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
+                  <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
                   Home
                 </p>
                  </Link>
                
                 <Link  href='/about-us'>
-                  <p className="xs:pb-[8px] opacity-60 link link-hover xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
+                  <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
                   About Us
                 </p>
                 </Link>
               
 
                <Link  href='/concept'>
-                <p className="xs:pb-[35px] opacity-60 link link-hover xs:text-[12px] xs:leading-[12px] font-normal font-helvetica">
+                <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
                   Concept
                 </p>
                </Link>
                
               </nav>
+            </div>
 
-              <form>
-                <h6 className="xs:pb-[6px] xs:text-[16px] xs:leading-[24px]  font-helvetica font-bold text-white">
+            <div className="flex flex-col lg:pt-16 xs:pt-8">
+            <div className="grow-0">
+            <h6 className=" font-helvetica font-bold text-white xs:text-[24px]">
+                  Learn More
+                </h6>
+            </div>
+            <nav>
+                
+            <Link  href='/toc'>
+                 <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
+                  Terms Of Use
+                </p>
+                </Link>
+                <Link  href='/privacyPolicy'>
+                 <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
+                  Privacy Policy
+                </p>
+                </Link>
+                <Link  href='/faq'>
+                 <p className="text-[18px] leading-[64px]  font-helvetica link-hover">
+                  FAQ
+                </p>
+                </Link>
+               
+              </nav>
+            </div>
+
+            <div className="flex flex-col lg:pt-16 xs:pt-8">
+            <div className="grow-0">
+            <h6 className="font-helvetica font-bold text-white xs:text-[24px]">
                   Newsletter
                 </h6>
-                <p className="opacity-60 font-helvetica font-normal xs:pb-[13px] xs:text-[12px] xs:leading-[16px]">
+            </div>
+            <form>
+                
+                <p className="capitalize text-[18px] leading-10 text-justify">
                   Don't miss the latest information on this platform
                 </p>
-                <fieldset className="form-control">
+                <fieldset className="form-control xs:my-8">
                   <div className="flex">
                     <input
                       type="text"
@@ -102,8 +112,19 @@ const Footer = () => {
                 </fieldset>
               </form>
             </div>
+            
           </div>
+
         </div>
+        <hr class="h-px  bg-white"></hr>
+        <nav>
+                <p className="text-center  p-4 text-[18px] leading-[64px]  font-helvetica ">
+                  Copyright © 2024 massArt, Designed & Developed Ethically by <span> </span>
+                  <a href="https://www.ethicalden.com/" target="_blank" className="link-hover">
+                    Ethical Den
+                  </a>
+                </p>
+              </nav>
       </footer>
     </>
   );
