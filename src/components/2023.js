@@ -54,7 +54,7 @@ const TwoZeroTwoThree = () => {
   }, [slides.length]);
 
   return (
-    <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt=[100px] mt-[60px]">
+    <div className="text-justify max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt=[100px] mt-[60px]">
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[52px] gap-7 lg:mb-[157px] mb-7">
         <div className="flex justify-center">
           <Image

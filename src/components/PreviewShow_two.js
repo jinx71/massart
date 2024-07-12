@@ -94,7 +94,7 @@ const PreviewShow_two = () => {
             <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
               Preview Show <span className="text-red-600">2025</span>
             </div>
-            <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block">
+            <div className="text-justify md:text-[18px] md:leading-[30px] text-[12px] md:block">
               <p className="md:mb-9 mb-5 font-helvetica">
                 The preview show, conceived by massArt, received overwhelming response in its inaugural year in 2022, being hailed at home and abroad as a breakthrough idea by creating a space to accommodate tourists who want to soak in the creative aspect of Durga Puja without jostling with the crowd.
               </p>

@@ -46,7 +46,7 @@ const PreviewShow_one = () => {
   return (
 
     <div>
-      <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] mt-[60px] lg:mt-[150px] ">
+      <div className="text-justify xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] mt-[60px] lg:mt-[150px] ">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[157px] mb-5">
           <div className="font-[Helvetica] md:hidden block xs:text-[24px] lg:text-[42px] leading-[30px] font-bold">
             Preview Show <span className="text-red-600">2024</span>
@@ -72,17 +72,17 @@ const PreviewShow_one = () => {
               Preview Show <span className="text-red-600">2024</span>
             </div>
             <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block hidden">
-              <p className="md:mb-9 mb-5">
+              <p className="md:mb-9 mb-5 text-justify ">
                 The preview show, conceived by massArt, received overwhelming response in its inaugural year in 2022, being hailed at home and abroad as a breakthrough idea by creating a space to accommodate tourists who want to soak in the creative aspect of Durga Puja without jostling with the crowd.
               </p>
-              <p className="md:mb-9 mb-5">
+              <p className="md:mb-9 mb-5 text-justify">
                 MassArt is back this year with its 3rd initiative, the preview show 2024 of Durga Puja Art. Over five days - from September 30 to October 4 - the preview show will showcase a selection of the finest creations: 22 contemporary, 2 traditional, and 2 aristocrat household Durga Pujas. Before pre-registered tourists from beyond the borders of the state and the country.
               </p>
-              <p className="md:mb-9 mb-5">
+              <p className="md:mb-9 mb-5 text-justify">
                 Alongside the preview show at the puja sites, an exhibition on ‘Making of Durga Puja Art’ will take place during the period at the iconic town hall. The exhibition is a journey through the entire process, from conception to execution, using audio-visual footage and live demonstration. There is also an opportunity to sample the craftsmanship of artists and collect specimens of their art before stepping out to enjoy the creations on view at the chosen puja sites.
               </p>
             </div>
-            <div className="md:text-[18px] md:leading-[30px] text-[13px] leading-[21px] md:hidden block -mt-3">
+            <div className="md:text-[18px] md:leading-[30px] text-[13px] leading-[21px] md:hidden block -mt-3 text-justify">
               <p className="md:mb-9 mb-5">
                 Durga puja is bengal's biggest festival that takes place over a week or so in september-october, on dates varying every year but announced well in advance. at the centre of the celebration is the figure of goddess durga, crafted traditionally in clay, who is worshipped in the act of vanquishing the demon mahishasura.
               </p>

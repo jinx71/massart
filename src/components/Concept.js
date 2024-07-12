@@ -221,7 +221,7 @@ const Concept = () => {
 
       {/* Show on mobile */}
       {currentPath !== "/" && (
-        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly  lg:mt-[150px] ">
+        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly  lg:mt-[150px] xs:pt-[60px] ">
          
           <div className="relative group rounded-lg overflow-hidden justify-center flex duration-150">
             <Image
