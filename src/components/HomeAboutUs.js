@@ -4,11 +4,11 @@ import HomePageImage01 from "../../public/images/HomePageImage-01.jpg";
 const HomeAboutUs = () => {
   return (
     <div className="xs:pt-[60px] bg-white font-helvetica xs:mx-[32px]">
-      <div className="flex flex-col lg:flex-row-reverse justify-center lg:gap-16">
+      <div className="flex flex-col lg:flex-row-reverse justify-center lg:gap-[92px] lg:mt-[150px]">
       <div className="lg:w-1/2">
         <h1 className="xs:text-[24px] lg:text-[42px] xs:leading-[36px] font-helvetica font-bold xs:pb-[15px]">
-          What is
-          <span className="text-buttonCustomColor "> durga puja Art </span>
+          What Is
+          <span className="text-buttonCustomColor "> Durga Puja Art </span>
         </h1>
         <p
           className=" font-normal font-helvetica xs:text-[12px] xs:leading-[18px] xs:pb-[25px] lg:text-[16px] lg:pt-10

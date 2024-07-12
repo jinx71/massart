@@ -46,7 +46,7 @@ const PreviewShow_one = () => {
   return (
 
     <div>
-      <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] mt-[60px]">
+      <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] mt-[60px] lg:mt-[150px] ">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[157px] mb-5">
           <div className="font-[Helvetica] md:hidden block xs:text-[24px] lg:text-[42px] leading-[30px] font-bold">
             Preview Show <span className="text-red-600">2024</span>
@@ -89,7 +89,7 @@ const PreviewShow_one = () => {
             </div>
           </div>
         </div>
-        <div className="font-[Helvetica] md:text-[42px] md:leading-[56px] w-full md:text-center text-left xs:text-[24px] leading-[36px] font-bold md:mb-[50px] mb-[22px]">
+        <div className="font-[Helvetica] md:text-[42px] md:leading-[56px] w-full md:text-center text-left xs:text-[24px] leading-[36px] font-bold md:mb-[50px] mb-[22px]  lg:mt-[150px] ">
           Preview Show <span className="text-red-600">2024</span>
         </div>
       </div>
@@ -234,7 +234,7 @@ const PreviewShow_one = () => {
       
 
       {/* how to reach kolkata section */}
-      <div className="text-center font-[Helvetica] md:text-[42px] xs:text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[30px]">
+      <div className="text-center font-[Helvetica] md:text-[42px] xs:text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[30px] lg:mt-[150px] ">
         How To Reach <br /> <span className="text-buttonCustomColor">Kolkata?</span>
       </div>
 
@@ -303,7 +303,7 @@ const PreviewShow_one = () => {
 
       {/* getting arround kolkata section */}
 
-      <div className="bg-[#EFEDED] md:py-20 py-[38px] md:mb-[160px] mb-[60px]">
+      <div className=" lg:mt-[150px] bg-[#EFEDED] md:py-20 py-[38px] md:mb-[160px] mb-[60px]">
         <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px]  font-bold mb-[25px]">
           Getting Around<br></br> <span className="text-buttonCustomColor">Kolkata</span>
         </div>

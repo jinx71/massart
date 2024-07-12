@@ -11,12 +11,12 @@ const Gallery = () => {
     e.preventDefault();
   }
   return (
-    <div className="xs:pt-[60px] xs:px-[32px]">
+    <div className="xs:pt-[60px] xs:px-[32px] lg:mt-[150px]">
       <div>
-        <div className=" grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
+        <div className=" grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[35px]">
         The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>
-        <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center">
+        <div className="flex justify-center gap-x-[15px] xs:py-[25px] items-center mb-[25px]">
          <button
       onClick={() => handleTabChange(0)}
       className={
@@ -177,7 +177,7 @@ const Gallery = () => {
         <Link href='/gallery'>
          <button
           className="xs:mt-[25px]  xs:text-[12px] xs:leading-[14px] font-helvetica font-bold text-buttonCustomColor border border-buttonCustomColor
-           xs:px-[17px] xs:py-[9px] rounded-full w-full"
+           xs:px-[17px] xs:py-[9px] rounded-full w-full lg:mt-[50px] lg:mb-[150px]"
         >
           Browse More Video
         </button>

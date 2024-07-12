@@ -2,12 +2,13 @@ import Image from "next/image";
 
 import Link from "next/link";
 import { LuSend } from "react-icons/lu";
-import massArtLogo from "../../../public/images/massart_1.png";
+import SocialContributor from "../SocialContributor/SocialContributer";
+
 
 const Footer = () => {
   return (
     <>
-      
+      <SocialContributor></SocialContributor>
       <footer className="bg-footerColor text-white">
         <div className="mx-[32px]">
 

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Concept = () => {
   const currentPath = usePathname();
   return (
-    <div className="xs:pt-[32px] lg:pt-[0px]">
+    <div className="xs:pt-[32px] lg:pt-[0px] lg:mb-[150px]">
       {currentPath =="/" && (
         <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
@@ -143,7 +143,7 @@ const Concept = () => {
 
       {/* should not show in home page */}
       {currentPath !== "/" && (
-        <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[50px] mx-[0px]">
+        <div className=" lg:mt-[150px] xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[50px] mx-[0px]">
           <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-[106px] gap-[17px] md:mb-[61px] mb-7">
             <div>
               <Image
@@ -168,10 +168,10 @@ const Concept = () => {
               </div>
               <div className="md:text-[15px] leading-[24px] text-[12px]">
                 <p
-                  className="md:mb-6 mb-5"
+                  className="md:mb-6 mb-5 text-justify"
                   style={{ fontFamily: "sans-serif" }}
                 >
-                  durga puja is bengal’s biggest festival that takes place over
+                  Durga puja is bengal’s biggest festival that takes place over
                   a week or so in september-october, on dates varying every year
                   but announced well in advance. at the centre of the
                   celebration is the figure of goddess durga, crafted
@@ -189,7 +189,7 @@ const Concept = () => {
                   a different theme to which the entire structure conforms.
                 </p>
                 <p
-                  className="md:mb-6 mb-5"
+                  className="md:mb-6 mb-5 text-justify"
                   style={{ fontFamily: "sans-serif" }}
                 >
                   every autumn, the entire city wakes up to an explosion of
@@ -201,7 +201,7 @@ const Concept = () => {
                   providing an eco-system of community support.
                 </p>
                 <p
-                  className="md:mb-6 mb-5"
+                  className="md:mb-6 mb-5 text-justify"
                   style={{ fontFamily: "sans-serif" }}
                 >
                   as a result, every year, the durga puja experience is
@@ -221,7 +221,7 @@ const Concept = () => {
 
       {/* Show on mobile */}
       {currentPath !== "/" && (
-        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly">
+        <div className="grid grid-flow-col auto-cols-max gap-3 mx-[32px] overflow-x-auto no-scrollbar lg:flex lg:justify-evenly  lg:mt-[150px] ">
          
           <div className="relative group rounded-lg overflow-hidden justify-center flex duration-150">
             <Image

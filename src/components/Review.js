@@ -56,13 +56,13 @@ const Review = () => {
   };
 
   return (
-    <div className="bg-white w-full overflow-hidden">
+    <div className="bg-white w-full overflow-hidden lg:mt-[150px]">
       <div className="pl-[32px] pr-[56px] pb-[25px] pt-[60px]">
         <h2 className="text-[24px] lg:text-[42px] font-bold xs:leading-[36px] text-left">
           What our <span className="text-red-500">popular customers </span>are
           saying
         </h2>
-        <p className="pt-[10px] text-[12px] font-normal leading-[18px]">
+        <p className="pt-[10px] text-[14px] font-normal leading-[18px]">
           Find out more about our team, vision, and dedication to creating
           extraordinary experiences. In this section, we share our story and our
           commitment to the success of each event.

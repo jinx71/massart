@@ -91,7 +91,7 @@ const PreviewShow_two = () => {
             />
           </div>
           <div>
-            <div className="md:block hidden font-[Helvetica] md:text-[50px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
+            <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
               Preview Show <span className="text-red-600">2025</span>
             </div>
             <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block">
@@ -108,7 +108,7 @@ const PreviewShow_two = () => {
            
           </div>
         </div>
-        <div className="font-[Helvetica] md:text-[50px] md:leading-[56px] w-full md:text-center text-left text-[24px] font-bold md:mb-[50px] mb-[28px]">
+        <div className="font-[Helvetica] md:text-[42px] md:leading-[56px] w-full md:text-center text-left text-[24px] font-bold md:mb-[50px] mb-[28px]">
           Preview Show <span className="text-red-600">2024</span>
         </div>
       </div>
@@ -165,7 +165,7 @@ const PreviewShow_two = () => {
           />
         </div>
         <div>
-          <div className="md:block hidden font-[Helvetica] md:text-[50px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
+          <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
             Events
           </div>
           <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block hidden">
@@ -181,7 +181,7 @@ const PreviewShow_two = () => {
 
 
       {/* how to reach kolkata section */}
-      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] md:mt-[150px] mt-[0] text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px] font-bold">
+      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] md:mt-[150px] mt-[0] text-center font-[Helvetica] md:text-[42px] text-[24px] md:leading-[56px] leading-[30px] font-bold">
 
         <div className="md:mb-[40px] mb-[30px] text-md:center text-left">Inclusive <span className="text-buttonCustomColor">Events</span></div>
 
@@ -299,7 +299,7 @@ const PreviewShow_two = () => {
       </div>
 
       {/* how to reach kolkata section */}
-      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] md:mt-[150px] mt-[60px] text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px] font-bold">
+      <div className="2xl:ms-auto 2xl:me-auto max-w-7xl xl:ms-[125px] ms-[38px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[38px] md:mt-[150px] mt-[60px] text-center font-[Helvetica] md:text-[42px] text-[24px] md:leading-[56px] leading-[30px] font-bold">
 
         <div className="md:mb-[40px] mb-[29px] text-md:center text-left">Mission <span className="text-buttonCustomColor">Eco-Care</span></div>
 

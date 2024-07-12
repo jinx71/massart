@@ -86,7 +86,7 @@ const MasterClass = () => {
   };
 
   return (
-    <div className="overflow-hidden mt-8 w-full">
+    <div className="overflow-hidden lg:mt-[36px] lg:mb-[150px]  w-full">
       <Slider {...settings} className="">
         {events.map((event, index) => (
           <div key={index} className="">
@@ -118,7 +118,7 @@ const MasterClass = () => {
                 <p className="xs:text-[12px] pb-[11px] xs:leading-[13px] font-normal font-helvetica text-[#ffffff99]">
                   {event.author}
                 </p>
-                <p className="xs:text-[12px] xs:leading-[16px] font-helvetica font-normal flex items-center text-[#ffffff99]">
+                <p className="xs:text-[12px] xs:leading-[16px] font-helvetica font-normal flex items-center text-[#ffffff99] ">
                   <FaLocationDot className="mr-[9px] text-white" />
                   {event.location}
                 </p>

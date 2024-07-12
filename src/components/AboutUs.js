@@ -55,7 +55,7 @@ const AboutUs = () => {
   return (
     <div>
 
-      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px]">
+      <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[123px] xl:me-[123px] lg:me-[100px] lg:ms-[100px] me-[30px] ms-[30px] lg:mt-[150px]">
         {/* <div className="flex flex-col lg:flex-row md:gap-[106px] gap-[10px] lg:mb-[160px] md:mb-[130px] mb-10">
           <div className="lg:block hidden">
             <Image
@@ -127,7 +127,7 @@ const AboutUs = () => {
       </div>
     </div>
         <div>
-          <div className="font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
+          <div className="lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] my-[32px] mb-[32px]">
             <span className="text-red-600">What</span> We Do
           </div>
 
@@ -338,7 +338,7 @@ const AboutUs = () => {
       </div>
 
       
-      <div className="font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px]" >
+      <div className=" lg:mt-[150px] font-[Helvetica] xs:text-[24px] leading-[32px] md:text-[36px] md:leading-[42px] lg:text-[42px] lg:leading-[56px] md:text-center text-left font-bold mb-[11px] ml-7 py-[32px]" >
       A <span className="text-red-600">Non-Profit</span> Organization Conceived In <span className="text-red-600">June 2022 </span>
           </div>
 
