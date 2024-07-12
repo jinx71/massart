@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="grow-0">
             <Image
               className=" object-cover"
-              src="/images/massart_1.png"
+              src="/images/massart 1.png"
               height={100}
               width={100}
               alt=""
