@@ -14,7 +14,7 @@ import HomeVideo from "@/src/components/HomeVideo";
 import Visual from "@/src/components/Visuals";
 
 export const metadata = {
-  title: "Home - ",
+  title: "Home - massert",
   description: "Welcome to the home of Massart.",
 };
 
