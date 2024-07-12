@@ -11,22 +11,22 @@ const TwoZeroTwoThree = () => {
     {
       imageUrl:
         "/photos/big screen/concept/picture 01.png",
-      title: "Contemporary durga puja Art 1",
+      title: "Contemporary Durga Puja Art 1",
     },
     {
       imageUrl:
         "/photos/big screen/concept/picture 02.png",
-      title: "Contemporary durga puja Art 2",
+      title: "Contemporary Durga Puja Art 2",
     },
     {
       imageUrl:
         "/photos/big screen/concept/picture 03.png",
-      title: "Contemporary durga puja Art 3",
+      title: "Contemporary Durga Puja Art 3",
     },
     {
       imageUrl:
         "/photos/big screen/concept/picture 04.png",
-      title: "Contemporary durga puja Art 4",
+      title: "Contemporary Durga Puja Art 4",
     },
   ];
 
@@ -73,12 +73,12 @@ const TwoZeroTwoThree = () => {
           />
         </div>
         <div>
-          <div className="md:block hidden font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
+          <div className="md:block hidden font-[Helvetica] lg:text-[42px] lg:leading-[56px] md:text-[36px] md:leading-[46px] xs:text-[24px] leading-[36px] font-bold mb-[20px]">
             Preview Show <span className="text-red-600">2023</span>
           </div>
 
           <div className="md:hidden block font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
-          <span className="text-red-600">What</span> is durga puja Art
+          <span className="text-red-600">What</span> Is Durga Puja Art
           </div>
 
           <div className="md:block hidden md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
@@ -114,15 +114,15 @@ const TwoZeroTwoThree = () => {
 
           <div className="md:hidden block md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
             <p className="md:mb-9 mb-5 font-normal font-helvetica">
-            durga puja is bengal’s biggest festival that takes place over a week  or so in september-october, on dates varying every year but announced  well in advance. at the centre of the celebration is the figure of  goddess durga, crafted traditionally in clay, who is worshipped in the  act of vanquishing the demon mahishasura. it is particularly in the  streets of kolkata (calcutta), the capital of the state, that durga puja  transcends religious bounds and serves as the cradle for the world’s  largest publicly funded Art show. while the worship of durga and her  four divine children remains the ritualistic core, the temporary  shelters of the idols – structures created from months in advance in  street corners – become exquisite works of artistic expression, unique  to each locality every year. thus there is a different artistic  interpretation offered in every locality through the choice of a  different theme to which the entire structure conforms.
+            Durga puja is bengal’s biggest festival that takes place over a week  or so in september-october, on dates varying every year but announced  well in advance. at the centre of the celebration is the figure of  goddess durga, crafted traditionally in clay, who is worshipped in the  act of vanquishing the demon mahishasura. it is particularly in the  streets of kolkata (calcutta), the capital of the state, that durga puja  transcends religious bounds and serves as the cradle for the world’s  largest publicly funded Art show. while the worship of durga and her  four divine children remains the ritualistic core, the temporary  shelters of the idols – structures created from months in advance in  street corners – become exquisite works of artistic expression, unique  to each locality every year. thus there is a different artistic  interpretation offered in every locality through the choice of a  different theme to which the entire structure conforms.
             </p>
 
             <p className="md:mb-9 mb-5">
-            every autumn, the entire city wakes up to an explosion of creativity,  with every neighbourhood decked up in unique templates that are a  mélange of traditional Art and contemporary concepts, that are diverse  and creative enough to rival any international art biennale. commercial  promotion and sponsorship have kept pace with the explosion of Art,  providing an eco-system of community support.
+            Every autumn, the entire city wakes up to an explosion of creativity,  with every neighbourhood decked up in unique templates that are a  mélange of traditional Art and contemporary concepts, that are diverse  and creative enough to rival any international art biennale. commercial  promotion and sponsorship have kept pace with the explosion of Art,  providing an eco-system of community support.
             </p>
 
             <p className="md:mb-9 mb-5">
-            as a result, every year, the durga puja experience is different and  diverse. the evolution of durga puja of kolkata into an inclusive,  community-driven celebration of Art has been hailed by unesco, which  describes it as "the best instance of the public performance of religion  and Art, and as thriving ground for collaborative artists and  designers...”. durga puja has been inscribed on its list of intangible  cultural heritage of humanity in 2021.
+            As a result, every year, the durga puja experience is different and  diverse. the evolution of durga puja of kolkata into an inclusive,  community-driven celebration of Art has been hailed by unesco, which  describes it as "the best instance of the public performance of religion  and Art, and as thriving ground for collaborative artists and  designers...”. durga puja has been inscribed on its list of intangible  cultural heritage of humanity in 2021.
             </p>
           </div>
         </div>
@@ -130,7 +130,7 @@ const TwoZeroTwoThree = () => {
 
       <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7 lg:mb-[157px] mb-7 hidden">
         <div className="font-[Helvetica] lg:text-[50px] lgleading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
-          Selected Art <span className="text-red-600"> <br className="md:block hidden" /> venue </span>
+          Selected Art <span className="text-red-600"> <br className="md:block hidden" /> Venue </span>
         </div>
         <div>
           <div className="md:text-[18px] md:leading-[24px] font-normal">
@@ -163,14 +163,14 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-              Contemporary durga puja Art
+              Contemporary Durga Puja Art
             </p>
             <div>
               <a
                 className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
-                read more
+                Read More
               </a>
             </div>
           </div>
@@ -192,14 +192,14 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-              Contemporary durga puja Art 1
+              Contemporary Durga Puja Art 1
             </p>
             <div>
               <a
                 className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
-                read more
+                Read More
               </a>
             </div>
           </div>
@@ -221,14 +221,14 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-            Contemporary durga puja Art
+            Contemporary Durga Puja Art
             </p>
             <div>
               <a
                 className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
-                read more
+                Read More
               </a>
             </div>
           </div>
@@ -250,14 +250,14 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-            Contemporary durga puja Art
+            Contemporary Durga Puja Art
             </p>
             <div>
               <a
                 className="text-[18px] text-white text-opacity-50 border-b border-white border-opacity-50 hover:border-opacity-100 hover:text-white w-auto"
                 href="#"
               >
-                read more
+                Read More
               </a>
             </div>
           </div>
@@ -266,7 +266,7 @@ const TwoZeroTwoThree = () => {
 
       {/* show on mobile */}
       <div className="md:hidden block font-[Helvetica] md:text-[50px] text-[24px] font-bold mb-[25px]">
-        Selected Art <span className="text-red-600">venue</span>
+        Selected Art <span className="text-red-600">Venue</span>
       </div>
 
       <div className="relative w-full mb-[60px] md:hidden block" {...handlers}>

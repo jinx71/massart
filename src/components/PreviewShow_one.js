@@ -46,9 +46,9 @@ const PreviewShow_one = () => {
   return (
 
     <div>
-      <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[150px] mt-[60px]">
+      <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] mt-[60px]">
         <div className="grid lg:grid-cols-2 grid-cols-1 xl:gap-[106px] lg:gap-[90px] gap-[30px] md:mb-[157px] mb-5">
-          <div className="font-[Helvetica] md:hidden block text-[24px] leading-[30px] font-bold">
+          <div className="font-[Helvetica] md:hidden block xs:text-[24px] lg:text-[42px] leading-[30px] font-bold">
             Preview Show <span className="text-red-600">2024</span>
           </div>
           <div>
@@ -68,7 +68,7 @@ const PreviewShow_one = () => {
             />
           </div>
           <div>
-            <div className="md:block hidden font-[Helvetica] md:text-[50px] md:leading-[56px] text-[24px] leading-[30px] font-bold mb-[20px]">
+            <div className="md:block hidden font-[Helvetica] md:text-[42px] md:leading-[56px] xs:text-[24px] leading-[30px] font-bold mb-[20px]">
               Preview Show <span className="text-red-600">2024</span>
             </div>
             <div className="md:text-[18px] md:leading-[30px] text-[12px] md:block hidden">
@@ -89,14 +89,14 @@ const PreviewShow_one = () => {
             </div>
           </div>
         </div>
-        <div className="font-[Helvetica] md:text-[50px] md:leading-[56px] w-full md:text-center text-left text-[24px] leading-[36px] font-bold md:mb-[50px] mb-[22px]">
+        <div className="font-[Helvetica] md:text-[42px] md:leading-[56px] w-full md:text-center text-left xs:text-[24px] leading-[36px] font-bold md:mb-[50px] mb-[22px]">
           Preview Show <span className="text-red-600">2024</span>
         </div>
       </div>
 
-      <div className="scroll-container 2xl:ms-auto 2xl:me-auto max-w-7xl">
-        <div className="w-full overflow-x-auto flex justify-center">
-          <div className="md:w-1/2 w-full grid grid-flow-col md:gap-9 gap-3 md:mb-[50px] mb-[30px]  ms-[63px]  me-[0]">
+      <div className="mx-[32px]">
+        <div className="overflow-x-auto flex justify-center">
+          <div className="md:w-1/2 w-full grid grid-flow-col md:gap-9 gap-3 md:mb-[50px] mb-[30px]">
             <button onClick={() => handleTabChange(0)}   className={
            isSelectTab === 0
           ? "md:w-[173px] md:h-[48px] w-[117px] h-[32px] font-bold md:text-[18px] text-[12px] font-helvetica rounded-[100px] bg-buttonCustomColor text-white"
@@ -132,7 +132,7 @@ const PreviewShow_one = () => {
 
 {
   isSelectTab == 0 && <div
-        className="w-full h-full relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px]"
+        className="relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px] mx-[32px]"
         style={{
           backgroundImage: 'url("https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg")',
         }}
@@ -140,9 +140,9 @@ const PreviewShow_one = () => {
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
           <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">ticket <span className="text-white">options will be available</span></span>
+            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
-              ticket options will be available soon. more ticket options including student concession are available. please call +91 8420460550
+              Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
@@ -158,17 +158,17 @@ const PreviewShow_one = () => {
 
 {
   isSelectTab == 1 && <div
-        className="w-full h-full relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px]"
+        className="relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px] mx-[32px]"
         style={{
           backgroundImage: 'url("https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
-      <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">ticket <span className="text-white">options will be available</span></span>
+          <div className="col-span-2 lg:mx-[150px] text-white">
+            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
-              ticket options will be available soon. more ticket options including student concession are available. please call +91 8420460550
+              Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
@@ -184,17 +184,17 @@ const PreviewShow_one = () => {
 
 {
   isSelectTab == 2 && <div
-        className="w-full h-full relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px]"
+        className="relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px] mx-[32px]"
         style={{
           backgroundImage: 'url("https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
-        <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">ticket <span className="text-white">options will be available</span></span>
+          <div className="col-span-2 lg:mx-[150px] text-white">
+            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
-              ticket options will be available soon. more ticket options including student concession are available. please call +91 8420460550
+              Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
@@ -209,17 +209,17 @@ const PreviewShow_one = () => {
 
 {
   isSelectTab == 3 && <div
-        className="w-full h-full relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px]"
+        className="relative rounded-[10px] bg-cover md:mb-[150px] mb-[60px] mx-[32px]"
         style={{
           backgroundImage: 'url("https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-black opacity-80 rounded-lg"></div>
         <div className="relative grid md:grid-cols-3 grid-cols-1 p-[33px] md:py-[75px] py-[18px] items-center">
-         <div className="col-span-2 lg:mx-[150px] text-white">
-            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">ticket <span className="text-white">options will be available</span></span>
+          <div className="col-span-2 lg:mx-[150px] text-white">
+            <span className="text-buttonCustomColor md:text-[50px] md:leading-[56px] text-[24px] leading-[36px] font-bold">Ticket <span className="text-white">Options Will Be Available</span></span>
             <div className="md:mt-[15px] mt-[5px] md:text-[18px] md:leading-[30px] text-[13px] leading-[22px] text-white">
-              ticket options will be available soon. more ticket options including student concession are available. please call +91 8420460550
+              Ticket options will be available soon. More ticket options including student concession are available. Please Call +91 8420460550
             </div>
           </div>
           <div className="col-span-1 md:text-center text-left leading-[0px] mt-[23px] mb-[18px]">
@@ -234,8 +234,8 @@ const PreviewShow_one = () => {
       
 
       {/* how to reach kolkata section */}
-      <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[30px]">
-        How to reach <br /> <span className="text-buttonCustomColor">Kolkata?</span>
+      <div className="text-center font-[Helvetica] md:text-[42px] xs:text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[30px]">
+        How To Reach <br /> <span className="text-buttonCustomColor">Kolkata?</span>
       </div>
 
       <div className='mb-[58px] md:hidden block'>
@@ -305,7 +305,7 @@ const PreviewShow_one = () => {
 
       <div className="bg-[#EFEDED] md:py-20 py-[38px] md:mb-[160px] mb-[60px]">
         <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px]  font-bold mb-[25px]">
-          Getting arround<br></br> <span className="text-buttonCustomColor">Kolkata</span>
+          Getting Around<br></br> <span className="text-buttonCustomColor">Kolkata</span>
         </div>
 
         <Carousel />
@@ -393,7 +393,7 @@ const PreviewShow_one = () => {
       {/* where to stay section */}
 
       <div className="text-center font-[Helvetica] md:text-[50px] text-[24px] md:leading-[56px] leading-[30px] font-bold md:mb-[50px] mb-[28px]">
-        where to <span className="text-buttonCustomColor">stay?</span>
+        Where To <span className="text-buttonCustomColor">Stay?</span>
       </div>
 
       <div className='mb-[58px] md:hidden block'>
@@ -516,7 +516,7 @@ const PreviewShow_one = () => {
           id="default-modal"
           tabIndex="-1"
           aria-hidden="true"
-          className="fixed inset-0 z-50 flex items-center justify-center w-full h-full bg-[#D9D9D9] bg-opacity-50"
+          className="fixed inset-0 z-50 flex items-center justify-center w-full h-full bg-[#000] bg-opacity-70"
         >
           <div className="relative p-4 w-full max-w-2xl max-h-full">
             <div className="relative shadow">
@@ -524,15 +524,15 @@ const PreviewShow_one = () => {
               <div className="md:p-5 p-[20px] bg-[#D9D9D9] rounded-[10px]">
 
                 <div className="font-[Helvetica] md:text-[50px] md:leading-[59px] text-[24px] leading-[33px] font-bold mb-[20px]">
-                  <span className="text-red-600">ticket </span> options will be available soon.
+                  <span className="text-red-600">Ticket </span> Options Will Be Available Soon.
                 </div>
-                <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>more ticket options including student concession are available. please call +91 8420460550</p>
+                <p className='md:text-[18px] md:leading-[30px] text-[13px] leading-[20px] mb-[27px]'>More ticket options including student concession are available. Please Call +91 8420460550</p>
                 <div className='leading-[0px]'>   <button
                   type="button"
-                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border rounded-full md:text-[18px] md:leading-[24px] text-[12px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
+                  className="md:w-[97px] md:h-[48px] w-[39px] h-[22px] border-2 rounded-full md:text-[18px] md:leading-[24px] text-[12px] leading-[16px] border-black hover:bg-red-600 hover:border-buttonCustomColor hover:text-white delay-150"
                   onClick={toggleModal}
                 >
-                  ok
+                  Ok
                 </button></div>
               </div>
 
