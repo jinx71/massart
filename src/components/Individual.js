@@ -37,21 +37,21 @@ const Individual = () => {
         </div>
 
         <div className="">
-          <div className="lg:text-[50px] lg:leading-[56px] md:text-left text-[24px] leading-[36px] font-bold lg:mb-[60px] mb-[30px] md:mt-0 mt-[25px]">
-            arjunpur amra sabai <br className="md:block hidden" />
-            <span className="text-red-600"> club</span>
+          <div className="lg:text-[42px] lg:leading-[56px] md:text-left xs:text-[24px] leading-[36px] font-bold lg:mb-[60px] mb-[30px] md:mt-0 mt-[25px]">
+            Arjunpur Amra Sabai <br className="md:block hidden" />
+            <span className="text-red-600"> Club</span>
           </div>
           <div className="">
             {[
               {
-                title: "title",
+                title: "Title",
                 content:
-                  "ganadevata",
+                  "Ganadevata",
               },
-              { title: "concept", content: "Concept content" },
+              { title: "Concept", content: "Concept content" },
               {
-                title: "area of Installation",
-                content: "Area of Installation content",
+                title: "Area of Installation",
+                content: "Area of Installation Content",
               },
             ].map((section, index) => (
               <div className="mb-2" key={index}>
