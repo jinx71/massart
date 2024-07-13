@@ -1,10 +1,12 @@
+import React from "react";
+
 const HomeVideo = () => {
   return (
     // <div className="h-[626px] pt-[150px] bg-white">
     <div
       className="relative 
       xs:mt-[60px] xs:mb-[30px]
-     xs:h-[550px] p-2 lg:mt-[150px]"
+     xs:h-[410px] p-2"
     >
       <video
         autoPlay

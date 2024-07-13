@@ -1,34 +1,38 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { useSwipeable } from "react-swipeable";
+import { useState, useEffect } from "react";
+import { useSwipeable } from 'react-swipeable';
+
 
 const TwoZeroTwoThree = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      imageUrl: "/photos/big screen/concept/picture 01.png",
+      imageUrl:
+        "/photos/big screen/concept/picture 01.png",
       title: "Contemporary durga puja Art 1",
     },
     {
-      imageUrl: "/photos/big screen/concept/picture 02.png",
+      imageUrl:
+        "/photos/big screen/concept/picture 02.png",
       title: "Contemporary durga puja Art 2",
     },
     {
-      imageUrl: "/photos/big screen/concept/picture 03.png",
+      imageUrl:
+        "/photos/big screen/concept/picture 03.png",
       title: "Contemporary durga puja Art 3",
     },
     {
-      imageUrl: "/photos/big screen/concept/picture 04.png",
+      imageUrl:
+        "/photos/big screen/concept/picture 04.png",
       title: "Contemporary durga puja Art 4",
     },
   ];
 
   const handlers = useSwipeable({
     onSwipedLeft: () => setCurrentSlide((currentSlide + 1) % slides.length),
-    onSwipedRight: () =>
-      setCurrentSlide((currentSlide - 1 + slides.length) % slides.length),
+    onSwipedRight: () => setCurrentSlide((currentSlide - 1 + slides.length) % slides.length),
     preventDefaultTouchmoveEvent: true,
     trackMouse: true,
   });
@@ -50,8 +54,8 @@ const TwoZeroTwoThree = () => {
   }, [slides.length]);
 
   return (
-    <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt-[100px] mt-[60px]">
-      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[52px] gap-7  mb-7">
+    <div className="max-w-7xl 2xl:ms-auto 2xl:me-auto xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] lg:mt-[150px] md:mt=[100px] mt-[60px]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[52px] gap-7 lg:mb-[157px] mb-7">
         <div className="flex justify-center">
           <Image
             className="lg:w-full w-2/3 h-auto rounded-[50px] lg:block hidden"
@@ -74,7 +78,7 @@ const TwoZeroTwoThree = () => {
           </div>
 
           <div className="md:hidden block font-[Helvetica] lg:text-[50px] lg:leading-[56px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold mb-[20px]">
-            <span className="text-red-600">What</span> is durga puja Art
+          <span className="text-red-600">What</span> is durga puja Art
           </div>
 
           <div className="md:block hidden md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
@@ -110,54 +114,23 @@ const TwoZeroTwoThree = () => {
 
           <div className="md:hidden block md:text-[18px] md:leading-[24px] text-[12px] leading-[18px]">
             <p className="md:mb-9 mb-5 font-normal font-helvetica">
-              durga puja is bengal’s biggest festival that takes place over a
-              week or so in september-october, on dates varying every year but
-              announced well in advance. at the centre of the celebration is the
-              figure of goddess durga, crafted traditionally in clay, who is
-              worshipped in the act of vanquishing the demon mahishasura. it is
-              particularly in the streets of kolkata (calcutta), the capital of
-              the state, that durga puja transcends religious bounds and serves
-              as the cradle for the world’s largest publicly funded Art show.
-              while the worship of durga and her four divine children remains
-              the ritualistic core, the temporary shelters of the idols –
-              structures created from months in advance in street corners –
-              become exquisite works of artistic expression, unique to each
-              locality every year. thus there is a different artistic
-              interpretation offered in every locality through the choice of a
-              different theme to which the entire structure conforms.
+            durga puja is bengal’s biggest festival that takes place over a week  or so in september-october, on dates varying every year but announced  well in advance. at the centre of the celebration is the figure of  goddess durga, crafted traditionally in clay, who is worshipped in the  act of vanquishing the demon mahishasura. it is particularly in the  streets of kolkata (calcutta), the capital of the state, that durga puja  transcends religious bounds and serves as the cradle for the world’s  largest publicly funded Art show. while the worship of durga and her  four divine children remains the ritualistic core, the temporary  shelters of the idols – structures created from months in advance in  street corners – become exquisite works of artistic expression, unique  to each locality every year. thus there is a different artistic  interpretation offered in every locality through the choice of a  different theme to which the entire structure conforms.
             </p>
 
             <p className="md:mb-9 mb-5">
-              every autumn, the entire city wakes up to an explosion of
-              creativity, with every neighbourhood decked up in unique templates
-              that are a mélange of traditional Art and contemporary concepts,
-              that are diverse and creative enough to rival any international
-              art biennale. commercial promotion and sponsorship have kept pace
-              with the explosion of Art, providing an eco-system of community
-              support.
+            every autumn, the entire city wakes up to an explosion of creativity,  with every neighbourhood decked up in unique templates that are a  mélange of traditional Art and contemporary concepts, that are diverse  and creative enough to rival any international art biennale. commercial  promotion and sponsorship have kept pace with the explosion of Art,  providing an eco-system of community support.
             </p>
 
             <p className="md:mb-9 mb-5">
-              as a result, every year, the durga puja experience is different
-              and diverse. the evolution of durga puja of kolkata into an
-              inclusive, community-driven celebration of Art has been hailed by
-              unesco, which describes it as "the best instance of the public
-              performance of religion and Art, and as thriving ground for
-              collaborative artists and designers...”. durga puja has been
-              inscribed on its list of intangible cultural heritage of humanity
-              in 2021.
+            as a result, every year, the durga puja experience is different and  diverse. the evolution of durga puja of kolkata into an inclusive,  community-driven celebration of Art has been hailed by unesco, which  describes it as "the best instance of the public performance of religion  and Art, and as thriving ground for collaborative artists and  designers...”. durga puja has been inscribed on its list of intangible  cultural heritage of humanity in 2021.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7  lg:mt-[150px] mb-7 hidden">
-        <div className="font-[Helvetica] lg:text-[50px] lg:leading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
-          Selected Art{" "}
-          <span className="text-red-600">
-            {" "}
-            <br className="md:block hidden" /> venue{" "}
-          </span>
+      <div className="md:grid lg:grid-cols-2 grid-cols-1 lg:gap-[106px] md:gap-[20px] gap-7 lg:mb-[157px] mb-7 hidden">
+        <div className="font-[Helvetica] lg:text-[50px] lgleading-[59px] md:text-[36px] md:leading-[46px] text-[24px] leading-[36px] font-bold">
+          Selected Art <span className="text-red-600"> <br className="md:block hidden" /> venue </span>
         </div>
         <div>
           <div className="md:text-[18px] md:leading-[24px] font-normal">
@@ -173,7 +146,7 @@ const TwoZeroTwoThree = () => {
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-3 grid-cols-1 gap-5 mt-10 lg:mb-[150px] hidden">
+      <div className="md:grid md:grid-cols-3 grid-cols-1 gap-5 mb-[157px] hidden">
         <div className="relative group rounded-[20px] overflow-hidden">
           <Image
             className="w-full h-auto"
@@ -248,7 +221,7 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-              Contemporary durga puja Art
+            Contemporary durga puja Art
             </p>
             <div>
               <a
@@ -277,7 +250,7 @@ const TwoZeroTwoThree = () => {
             }}
           >
             <p className="text-[24px] leading-[32px] font-bold font-[Helvetica] mb-[10px]">
-              Contemporary durga puja Art
+            Contemporary durga puja Art
             </p>
             <div>
               <a
@@ -336,6 +309,7 @@ const TwoZeroTwoThree = () => {
           ))}
         </div>
       </div>
+
     </div>
   );
 };
