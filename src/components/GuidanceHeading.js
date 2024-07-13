@@ -1,13 +1,15 @@
+import React from "react";
+
 const GuidanceHeading = () => {
   return (
-    <div className="xs:pt-[60px] lg:pt-0 lg:mt-[150px] bg-white  xs:text-left xs:pb-[15px]">
-      <h1 className="text-[40px] leading-[50px] font-bold font-helvetica text-center">
-        Your Guide to <br /> Hassle-Free
-        <span className="text-buttonCustomColor"> Event Registration </span>
+    <div className=" xs:pt-[60px] bg-white xs:px-[32px] xs:text-left xs:pb-[15px]">
+      <h1 className="xs:text-[24px] xs:leading-[36px] font-bold font-helvetica ">
+        <span className="text-buttonCustomColor">Frequently </span>Asked
+        Questions
       </h1>
       <p
         className=" xs:pt-[15px]
-       xs:text-[12px] xs:leading-[18px] font-normal font-helvetica text-center w-1/2 mx-auto"
+       xs:text-[12px] xs:leading-[18px] font-normal font-helvetica"
       >
         Find out more about our team, vision, and dedication to creating
         extraordinary experiences. In this section, we share our story and our
