@@ -1,7 +1,6 @@
 import Explore from "@/src/components/Explore";
 import Gallery from "@/src/components/Gallery";
 import MasterClass from "@/src/components/MasterClass";
-import Review from "@/src/components/Review";
 
 import Footer from "@/src/components/common/Footer";
 import HeaderHome from "@/src/components/common/HeaderHome";
@@ -33,7 +32,7 @@ export default function Home() {
           <MasterClass />
         </div>
         <EventPartener />
-        <Review />
+        {/* <Review /> */}
         <GuidanceHeading />
         <GuidenceStep />
       </main>

@@ -2,7 +2,7 @@ const Explore = () => {
   return (
     <div
       className="  
-         xs:pt-[40px] xs:pb-[25px]  flex lg:flex-row"
+         xs:pt-[60px]  lg:pt-0 lg:mt-[150px] flex lg:flex-row"
     >
       <h1 className="pr-[20%] xs:text-[24px] lg:text-[42px] leading-[3rem] w-full   font-bold font-helvetica">
         Explore and Join Our{" "}

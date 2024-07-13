@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 const Concept = () => {
   const currentPath = usePathname();
   return (
-    <div className="pt-[60px] px-[32px]">
+    <div className="pt-[60px] px-[32px] lg:pt-0 lg:mt-[150px]">
       <div className="grid md:grid-cols-2  gap-6 items-center">
         {/* card1 */}
         <div className="relative h-[400px] md:h-[590px] rounded-md overflow-hidden group  bg-[url('/images/conceptOfDurgaPuja.jpg')] bg-no-repeat bg-cover bg-center">
@@ -144,20 +144,20 @@ const Concept = () => {
         <div className="xl:ms-[125px] ms-[33px] xl:me-[125px] lg:ms-[100px] lg:me-[100px] me-[33px] md:mt-[150px] mt-[0px]">
           <div className="grid lg:grid-cols-2 grid-cols-1 md:gap-[106px] gap-[17px] md:mb-[61px] mb-7">
             <div>
-              {/* <Image
-          src="/photos/big screen/concept/picture 01.png"
-          className="md:block hidden"
-          alt="img"
-          width={527}
-          height={777}
-        />
-        <Image
-          src="/photos/phone screen/concept/picture 1.png"
-          className="md:hidden block"
-          alt="img"
-          width={366}
-          height={347}
-        /> */}
+              <Image
+                src="/photos/big screen/concept/picture 01.png"
+                className="md:block hidden"
+                alt="img"
+                width={527}
+                height={777}
+              />
+              <Image
+                src="/photos/phone screen/concept/picture 1.png"
+                className="md:hidden block"
+                alt="img"
+                width={366}
+                height={347}
+              />
             </div>
             <div>
               <div className="font-[Helvetica] md:text-[49px] leading-[56px] text-[24px] font-bold mb-[5px]">

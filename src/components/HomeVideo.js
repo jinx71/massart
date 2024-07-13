@@ -4,7 +4,7 @@ const HomeVideo = () => {
     <div
       className="relative 
       xs:mt-[60px] xs:mb-[30px]
-     xs:h-[550px] p-2"
+     xs:h-[550px] p-2 lg:mt-[150px]"
     >
       <video
         autoPlay

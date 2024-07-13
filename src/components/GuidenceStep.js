@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import { HiMiniMinusSmall, HiMiniPlusSmall } from "react-icons/hi2";
 
 const GuidenceStep = () => {
@@ -14,9 +14,9 @@ const GuidenceStep = () => {
     {
       id: 1,
       number: "01",
-      question: "what is durga puja Art ?",
+      question: "How do I purchase tickets for an event?",
       answer:
-        "durga puja is bengal’s biggest festival that takes place over a week or so in september-october, on dates varying every year but announced well in advance. at the centre of the celebration is the figure of goddess durga, crafted traditionally in clay, who is worshipped in the act of vanquishing the demon mahishasura. it is particularly in the streets of kolkata (calcutta), the capital of the state, that durga puja transcends religious bounds and serves as the cradle for the world’s largest publicly funded Art show. the idols and structures created from months in advance in street corners – become exquisite works of artistic expression, unique to each locality every year. thus there is a different artistic interpretation offered in every locality through the choice of a different theme to which the entire structure conforms.every autumn, the entire city wakes up to an explosion of creativity, with every neighbourhood decked up in unique templates that are a mélange of traditional Art and contemporary concepts, that are diverse and creative enough to rival any international Art biennale.",
+        "To purchase tickets, simply log in to your account, select the desired event, and follow the purchasing guide. Alternatively, you can purchase tickets without having to create an account first",
     },
     {
       id: 2,
@@ -91,8 +91,8 @@ const GuidenceStep = () => {
   ];
 
   return (
-    <div className="px-[32px]">
-      <div className="">
+    <div className="px-[32px] mt-10">
+      <div className="grid grid-cols-2 gap-10">
         {items.map((item) => (
           <div
             key={item.id}
@@ -103,7 +103,7 @@ const GuidenceStep = () => {
             <div
               className={`${
                 openAccordion === item.id ? "text-white" : "text-black"
-              } pt-[25px] px-[20px] pb-[20px]`}
+              } p-6`}
             >
               <div>
                 <div
@@ -113,10 +113,10 @@ const GuidenceStep = () => {
                   <div className="flex  gap-x-[13px]">
                     <div>
                       <p className="text-[24px] leading-[27px] font-helvetica font-bold">
-                        {item.number}
+                        {item.number}.
                       </p>
                     </div>
-                    <h6 className="z-20 text-[12px] leading-[26px] font-helvetica font-bold">
+                    <h6 className="z-20 text-[26px] leading-[26px] font-helvetica font-bold">
                       {item.question}
                     </h6>
                   </div>

@@ -7,7 +7,7 @@ const EventPartener = () => {
     setIsSelectTab(indexNum);
   };
   return (
-    <div className="bg-EventPartner pt-[50px] font-helvetica mt-32">
+    <div className="bg-EventPartner pt-[60px] lg:pt-0 lg:mt-[150px] font-helvetica">
       <div className=" font-helvetica bg-EventPartner max-w-[1200px] mx-auto">
         <div className="py-[41px] grid grid-cols-2 items-center gap-10">
           <div>
